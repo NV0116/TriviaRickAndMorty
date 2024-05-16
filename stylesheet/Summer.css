@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('fondo2.jpg');
+  background-size: cover;
+}
+
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#question-container {
+  margin-bottom: 20px;
+}
+
+#question {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#question-image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto; 
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+#options-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  margin-bottom: 10px;
+}
+
+#next-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#next-btn:hover {
+  background-color: #0056b3;
+}
+
+#score {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.container-fluid{
+  background-color: rgba(0, 0, 0, 0.8);
+  
+}
+
